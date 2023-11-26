@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,22 +17,25 @@
    <header class="header">
         <div class="header__container container">
             <div class="header__wrapper wrapper">
-                <p class="header__logo logo">WebStudio</p>
-                <nav class="header-navigation">
-                    <ul class="navigation-list">
-                        <li class="navigation-list__item"><a href="./index.html" class="navigation-list__link active">Studio</a></li>
-                        <li class="navigation-list__item"><a href="#" class="navigation-list__link">Portfolio</a></li>
-                        <li class="navigation-list__item"><a href="#" class="navigation-list__link">Contacts</a></li>
+                <p class="header__logo logo"><span>Web</span>Studio</p>
+                <div class="header-box">
+                    <nav class="header-navigation">
+                        <ul class="navigation-list">
+                            <li class="navigation-list__item"><a href="./index.html" class="navigation-list__link active">Studio</a></li>
+                            <li class="navigation-list__item"><a href="#" class="navigation-list__link">Portfolio</a></li>
+                            <li class="navigation-list__item"><a href="#" class="navigation-list__link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="header-contacts">
+                        <li class="header-contacts__item"><a href="mailto:info@devstudio.com" class="header-contacts__link">
+                            info@devstudio.com</a>
+                        </li>
+                        <li class="header-contacts__item"><a href="tel:+110001111111" class="header-contacts__link">
+                            +11 (000) 111-11-11</a>
+                        </li>
                     </ul>
-                </nav>
-                <ul class="header-contacts">
-                    <li class="header-contacts__item"><a href="mailto:info@devstudio.com" class="header-contacts__link">
-                        info@devstudio.com</a>
-                    </li>
-                    <li class="header-contacts__item"><a href="tel:+11 (000) 111-11-11" class="header-contacts__link">
-                        +11 (000) 111-11-11</a>
-                    </li>
-                </ul>
+                </div>
+               
             </div>
         </div>
    </header> 
@@ -40,7 +43,7 @@
         <section class="hero">
             <div class="hero__container container">
                 <div class="hero__wrapper wrapper">
-                <h1 class="hero__">Effective Solutions for Your Business</h1> 
+                <h1 class="hero__title">Effective Solutions for Your Business</h1> 
                 <button type="button" class="hero__button">Order Service</button>
                 </div>
             </div>
@@ -50,7 +53,15 @@
             <div class="our-advantages__wrapper wrapper">
                     <ul class="our-advantages__list">
                         <li class="our-advantages__item">
-                            <div class="our-advantages__box-icon">          
+                            <div class="our-advantages__box-icon">
+                                <svg
+                                class="our-advantages__icon"
+                                width="64"
+                                height="64"
+                                aria-label="Our advantages icon"
+                              >
+                                <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+                              </svg>         
                             </div>
                             <h2 class="our-advantages__title">Strategy</h2>
                             <p class="our-advantages__text">Our goal is to identify the business problem to walk
@@ -58,7 +69,15 @@
                             </p>
                         </li>
                         <li class="our-advantages__item">
-                            <div class="our-advantages__box-icon">          
+                            <div class="our-advantages__box-icon"> 
+                                <svg
+                                class="our-advantages__icon"
+                                width="64"
+                                height="64"
+                                aria-label="Our advantages icon"
+                              >
+                                <use href="./images/symbol-defs.svg#icon-clock"></use>
+                              </svg>         
                             </div>
                             <h2 class="our-advantages__title">Punctuality</h2>
                             <p class="our-advantages__text">Bring the key message to the brand's audience for the
@@ -66,7 +85,15 @@
                                 </p>
                         </li>
                         <li class="our-advantages__item">
-                            <div class="our-advantages__box-icon">          
+                            <div class="our-advantages__box-icon">  
+                                <svg
+                                class="our-advantages__icon"
+                                width="64"
+                                height="64"
+                                aria-label="Our advantages icon"
+                              >
+                                <use href="./images/symbol-defs.svg#icon-diagram"></use>
+                              </svg>        
                             </div>
                             <h2 class="our-advantages__title">Diligence</h2>
                             <p class="our-advantages__text">Research and confirm brands that present the strongest
@@ -74,7 +101,15 @@
                             </p>
                         </li>
                         <li class="our-advantages__item">
-                            <div class="our-advantages__box-icon">          
+                            <div class="our-advantages__box-icon">  
+                                <svg
+                                class="our-advantages__icon"
+                                width="64"
+                                height="64"
+                                aria-label="Our advantages icon"
+                              >
+                                <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                              </svg>        
                             </div>
                             <h2 class="our-advantages__title">Technologies</h2>
                             <p class="our-advantages__text">Design practice focused on digital experiences. 
@@ -87,50 +122,94 @@
          </div>
        </section>
     <section class="our-team">
-            <div class=".our-team__container container">
+            <div class="our-team__container container">
                 <div class="our-team__wrapper wrapper">
                     <h2 class="our-team__title">Our Team</h2>
                     <ul class="our-team__list">
                         <li class="our-team__item">
-                            <img src="" alt="" class="our-team__photo">
-                            <h3 class="our-team-list__title">Mark Guerrero</h3>
-                            <p class="our-team-list__text">Product Designer</p>
-                            <ul class="our-team-list__social-list">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+                            <img src="./images/foto_1.jpg" width="264" height="260" alt="Бородатий чоловік у голубій сорочці" class="our-team__photo">
+                            <div class="our-team__box-text">
+                                <h3 class="our-team-list__title">Mark Guerrero</h3>
+                                <p class="our-team-list__text">Product Designer</p>
+                                <ul class="our-team-list__social-list">
+                                    <li>
+                                        <a href="#">
+                                            <svg class="our-advantages__icon" aria-label="Instagram icon">
+                                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                            </svg>
+                                       </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg class="our-advantages__icon"
+                                                        aria-label="Twitter icon">
+                                                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                                </svg>
+                                            </a>
+                                            </li>
+                                    <li><a href="#">
+                                        <svg
+                                        class="our-advantages__icon"
+                                        aria-label="Instagram icon">
+                                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                    </a>
+
+                                    </li>
+                                    <li><a href="#">
+                                        <svg
+                                        class="our-advantages__icon"
+                                        aria-label="Instagram icon">
+                                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                    </a>
+
+                                    </li>
+                                </ul>
+                            </div>
+                            
                         </li>
-                        <li class="our-team__item"><img src="" alt="" class="our-team__photo">
-                            <h3 class="our-team-list__title">Tom Ford</h3>
-                            <p class="our-team-list__text">Frontend Developer</p>
-                            <ul class="our-team-list__social-list">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+                        <li class="our-team__item">
+                            <img src="./images/foto_2.jpg" width="264" height="260" alt="Усміхнений чоловік у білій сорочці" class="our-team__photo">
+                            <div class="our-team__box-text">
+                                <h3 class="our-team-list__title">Tom Ford</h3>
+                                <p class="our-team-list__text">Frontend Developer</p>
+                                <ul class="our-team-list__social-list">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul> 
+                            </div>
+                           
                         </li>
-                        <li class="our-team__item"><img src="" alt="" class="our-team__photo">
-                            <h3 class="our-team-list__title">Camila Garcia</h3>
-                            <p class="our-team-list__text">Marketing</p>
-                            <ul class="our-team-list__social-list">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+                        <li class="our-team__item">
+                            <img src="./images/foto_3.jpg" width="264" height="260" alt="Жінка з довгим чорним волоссям" class="our-team__photo">
+                            <div class="our-team__box-text">
+                                <h3 class="our-team-list__title">Camila Garcia</h3>
+                                <p class="our-team-list__text">Marketing</p>
+                                <ul class="our-team-list__social-list">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                               </ul>
+                            </div>
+                            
                         </li>
-                        <li class="our-team__item"><img src="" alt="" class="our-team__photo">
-                            <h3 class="our-team-list__title">Daniel Wilson</h3>
-                            <p class="our-team-list__text">UI Designer</p>
-                            <ul class="our-team-list__social-list">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+                        <li class="our-team__item">
+                            <img src="./images/foto_4.jpg" width="264" height="260" alt="Бородатий чоловік у сірій футболці" class="our-team__photo">
+                            <div class="our-team__box-text">
+                                <h3 class="our-team-list__title">Daniel Wilson</h3>
+                                <p class="our-team-list__text">UI Designer</p>
+                                <ul class="our-team-list__social-list">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                           
                         </li>
                     </ul>
                 </div>

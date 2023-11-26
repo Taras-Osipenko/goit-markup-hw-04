@@ -16,6 +16,7 @@ body {
     font-family: "Roboto", "sans-serif";
     font-weight: 500;
     font-size: 20px;
+    color: #2E2F42;
 }
 
 ul {
@@ -29,11 +30,18 @@ button {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: rgba(46, 47, 66, 1);
+}
+
 .logo {
     font-family: "Raleway",  "sans-serif";
     font-size: 18px;
     line-height: 1.17;
     font-weight: 700; 
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
 } 
 
 
@@ -47,30 +55,249 @@ button {
 .container {
 }
 .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 76px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .wrapper {
+
 }
+
+.header-box {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-right: 0;
+    column-gap: 100px;
+    max-width: auto;
+}
+
 .header__logo {
+    margin-left: 0;
+    /* margin-right: auto; */
+}
+
+.header__logo span {
+    color: #4D5AE5;
   
 }
 .header-navigation {
+   
 }
 .navigation-list {
+    margin-right: auto;
+    display: flex;
+    column-gap: 40px;
 }
 .navigation-list__item {
+   
 }
 .navigation-list__link {
+    font-size: 16px;
+    line-height: 1.5;
 }
-.active {
+.navigation-list__link.active {
+    color: #404BBF;
 }
 .header-contacts {
+    display: flex;
+    margin-right: 0;
+    column-gap: 40px;
 }
 .header-contacts__item {
 }
+
+
+
+
 .header-contacts__link {
+
+
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #434455;
+}
+
+/* ---------------Hero------------------- */
+
+.hero {
+
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
+    background-size: cover;
+
+}
+.hero__container {
+}
+.container {
+}
+.hero__wrapper {
+   
+}
+.wrapper {
+}
+.hero__title {
+
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    color: white;
+
+}
+.hero__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    color: white;
+
+
+}
+
+/* ------------Our advantures--------------------- */
+
+
+
+.our-advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.our-advantages__container {
+}
+.container {
+}
+.our-advantages__wrapper {
+}
+.wrapper {
+}
+.our-advantages__list {
+    display: flex;
+    column-gap: 24px;
+}
+.our-advantages__item {
+}
+.our-advantages__box-icon {
+    padding: 24px 100px;
+
+    border-radius: 4px;
+    border: 1px solid  #8E8F99;
+    background: #F4F4FD;
+}
+.our-advantages__title {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+.our-advantages__text {
+    color: #434455;
+
+    font-family: Roboto;
+    font-size: 16px;
+ 
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+
+ }
+
+
+
+/* ------------------Our-team---------------------------- */
+
+.our-team {
+    padding: 120px 0;
+    background-color: #F4F4FD;
+}
+.our-team__container {
+
+
+
+
+}
+.container {
+}
+.our-team__wrapper {
+}
+.wrapper {
+}
+.our-team__title {
+    text-align: center;
+    
+    font-size: 36px;
+   
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+
+    margin-bottom: 72px;
+}
+.our-team__list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.our-team__item {
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.our-team__box-text {
+    padding: 32px 16px;
+}
+.our-team__photo {
+}
+.our-team-list__title {
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+.our-team-list__text {
+    text-align: center;
+   
+    font-size: 16px;
+   
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+.our-team-list__social-list {
 }
 
 
 
 
-/* --------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------ */
