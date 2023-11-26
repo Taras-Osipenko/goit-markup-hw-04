@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 .container {
     max-width: 1158px;
     padding-left: 15px;
@@ -5,3 +12,65 @@
     margin-left: auto;
     margin-right: auto;
 }
+body {
+    font-family: "Roboto", "sans-serif";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ul {
+    
+   list-style: none;
+   padding: 0 0;
+    border: none;
+    
+}
+button {
+    cursor: pointer;
+}
+
+.logo {
+    font-family: "Raleway",  "sans-serif";
+    font-size: 18px;
+    line-height: 1.17;
+    font-weight: 700; 
+} 
+
+
+
+/* --------------HEADER------------- */
+
+.header {
+}
+.header__container {
+}
+.container {
+}
+.header__wrapper {
+}
+.wrapper {
+}
+.header__logo {
+  
+}
+.header-navigation {
+}
+.navigation-list {
+}
+.navigation-list__item {
+}
+.navigation-list__link {
+}
+.active {
+}
+.header-contacts {
+}
+.header-contacts__item {
+}
+.header-contacts__link {
+}
+
+
+
+
+/* --------------------------------- */
