@@ -389,6 +389,10 @@ img {
 .container {
 }
 .footer__wrapper {
+    display: flex;
+}
+.footer__box {
+    margin-right: 120px;
 }
 .footer__logo {
     color: #F4F4FD;
@@ -409,9 +413,18 @@ img {
     letter-spacing: 0.32px;
     max-width: 264px;
 }
+
+.footer-social__title {
+    color: #FFF;
+
+    font-size: 16px;
+    
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
 .footer-social-list {
 }
-
 
 
 /* ----------------------------------------------------------------------- */
